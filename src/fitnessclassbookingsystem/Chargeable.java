@@ -1,7 +1,10 @@
 
-package fitnessclassbookingsystem;
+
+package com.mycompany.chargeable;
 
 
-public class Chargeable {
+public interface Chargeable {
+    double VAT = 0.15;
     
+    double calcPrice(int sessions);
 }
